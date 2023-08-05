@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* font-family: "Montserrat", sans-serif; */
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f5f5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 4rem 4rem;
+}
+
+.container,
+header,
+.searchAndProfile,
+.stats,
+.header-of-line-chart,
+.guest-user,
+.guest,
+.user,
+.chart-schedule,
+.header-of-piechart,
+.piechart,
+.header-of-schedule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  gap: 2rem;
+}
+
+/* SIDEBOARD */
+
+.bottomBoard {
+  display: none;
+}
+
+.sideBoard {
+  margin-top: 4rem;
+  margin-left: 0rem;
+  width: 30rem;
+  background-color: #000000;
+  color: white;
+  padding: 2rem;
+  border-radius: 3rem;
+  height: 115vh;
+}
+
+.heading > h1 {
+  margin: 4rem 0 6rem 3rem;
+  font-size: 3.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 3rem;
+  font-size: 1.8rem;
+}
+
+li > img {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+li {
+  padding-bottom: 3.4rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.help {
+  margin: 35.5rem 0 0 3rem;
+  font-size: 1.4rem;
+}
+
+.contact {
+  margin: 2rem 0 0 3rem;
+  font-size: 1.4rem;
+}
+
+/* MAIN CONTENT */
+
+header {
+  justify-content: space-between;
+  /* margin-top: -5rem; */
+}
+
+.heading-main {
+  font-size: medium;
+  margin: 4rem 0 4rem;
+}
+
+.search-bar > input {
+  border: none;
+  padding: 1rem;
+  border-radius: 1.3rem;
+}
+
+.fa-magnifying-glass,
+.percentage-of-basic-tees,
+.percentage-of-custom,
+.percentage-of-hoodies {
+  color: #a7a3a3;
+  font-size: 1.2rem;
+}
+
+.search-icon {
+  display: inline;
+  background-color: white;
+  margin-left: -2rem;
+  cursor: pointer;
+}
+
+::placeholder,
+#date,
+.see-all {
+  color: #a7a3a3;
+  cursor: pointer;
+}
+
+.bell-icon {
+  margin: 0 3rem 0 4rem;
+  cursor: pointer;
+}
+
+.profile-icon {
+  cursor: pointer;
+}
+
+.heading-main .mainContent {
+  width: 90rem;
+}
+
+.stats {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.revenues,
+.transactions,
+.likes,
+.users {
+  border-radius: 2rem;
+  background-color: #dceee0;
+  padding: 2rem 2.5rem;
+  min-width: 22rem;
+}
+
+.transactions {
+  background-color: #f4ecdd;
+}
+
+.likes {
+  background-color: #eedad9;
+}
+
+.users {
+  background-color: #dde0ef;
+}
+
+.revenue-img,
+.transaction-img,
+.like-img,
+.user-img {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.3rem;
+}
+
+.text {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.number {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.header-of-line-chart {
+  justify-content: space-between;
+}
+
+.activities,
+.top-products,
+.today-schedule {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.line-chart {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 4rem 0;
+  padding: 3rem 3rem 1rem;
+}
+
+.guest-user {
+  gap: 6rem;
+  font-size: larger;
+}
+
+.guest,
+.user {
+  gap: 1rem;
+}
+
+.chart > img {
+  width: 100%;
+}
+
+.ball-guest,
+.ball-user,
+.basic-ball,
+.custom-ball,
+.hoodies-ball {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: #f6dc7d;
+}
+
+.ball-guest {
+  background-color: #e8a2a2;
+}
+
+.hoodies-ball {
+  background-color: #ee8384;
+}
+
+.ball-user,
+.basic-ball,
+.vertical-line1 {
+  background-color: #9bdd7c;
+}
+
+.chart-schedule,
+.header-of-piechart {
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.header-of-piechart {
+  margin-bottom: 2rem;
+  gap: 0rem;
+}
+
+.piechart {
+  justify-content: space-around;
+}
+
+.stats-of-piechart {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.basic-tees,
+.custom-short-pants,
+.super-hoodies {
+  display: flex;
+  gap: 1rem;
+}
+
+.heading-of-basic-tees,
+.heading-of-custom,
+.heading-of-hoodies {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+select {
+  border: none;
+}
+
+.products,
+.schedule {
+  border-radius: 2rem;
+  background-color: white;
+  width: 50%;
+  padding: 2rem;
+}
+
+.header-of-schedule {
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.meeting,
+.operation {
+  display: flex;
+  gap: 1rem;
+}
+
+.vertical-line1,
+.vertical-line2 {
+  width: 0.5rem;
+  height: 6rem;
+}
+
+.vertical-line2 {
+  background-color: #949ad4;
+}
+
+.main-of-schedule {
+  margin-top: 3.6rem;
+}
+
+.main-of-schedule,
+.content-of-operation,
+.content-of-meeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.content-of-operation,
+.content-of-meeting {
+  gap: 0.5rem;
+}
+
+.work {
+  font-size: 1.3rem;
+}
+
+.time,
+.place {
+  color: #a7a3a3;
+}
+
+@media screen and (max-width: 1268px) {
+  .stats-box {
+    margin-bottom: 4rem;
+  }
+  .line-chart {
+    margin-top: -1rem;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .icon-names {
+    display: none;
+  }
+
+  li > img {
+    width: 3rem;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 971px) {
+  .users {
+    min-width: 22rem;
+    max-width: 22rem;
+  }
+}
+
+@media screen and (max-width: 965px) {
+  .chart-schedule {
+    flex-direction: column;
+  }
+  .sideBoard {
+    height: 162vh;
+  }
+  .help {
+    margin: 65.5rem 0 0 3rem;
+  }
+  .heading > h1 {
+    margin-left: 1rem;
+  }
+
+  .products,
+  .schedule {
+    width: 100%;
+  }
+}
+
+@media screen and (min-height: 1000px) {
+  .sideBoard {
+    height: 110vh;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .sideBoard {
+    display: none;
+  }
+
+  .bottomBoard {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .chart-schedule {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 534px) {
+  .stats-box {
+    width: 100%;
+  }
+  .users {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  header {
+    display: block;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  .searchAndProfile {
+    margin: -2rem 0 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .stats-box,
+  .line-chart,
+  .schedule,
+  .products {
+    width: 70%;
+  }
+
+  .users {
+    min-width: 70%;
+  }
+
+  .stats {
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .line-chart {
+    margin: 0 auto 4rem;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .users {
+    width: 100%;
+  }
+}
